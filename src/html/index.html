@@ -3,9 +3,9 @@
   <head>
     <title>CSS Concept</title>
     <meta charset="UTF-8">
+    <meta http-equiv="Content-Language" content="en">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta http-equiv="Content-Language" content="en">
 
     <link rel="stylesheet" href="style.css">
   </head>
@@ -13,12 +13,12 @@
 
   <section class="location">
     <div class="location-wrapper">
-      <div class="container">
+      <div class="container flex-container">
 
         <a class="location-hero__gallery" href="#">
           <img src="images/cafe.jpg" class="gallery-image" alt="Dee Dee's Tavern Image">
         </a>
-        <header class="location-header">
+        <div class="location-header">
           <h1 class="location-header__title">Dee Dee's Tavern</h1>
           <a href="#" class="button button--float-left">Book Now</a>
           <span class="location-header__reviews">
@@ -55,7 +55,7 @@
               @include("./svg/clock-icon.svg")
             </a>
           </div>
-        </header>
+        </div>
       </div>
     </div>
   </section>

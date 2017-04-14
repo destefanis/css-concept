@@ -12,9 +12,19 @@ html {
 body {
   font-size: 1.6rem;
   font-family: $sans;
+  font-weight: 400;
 }
 
 .container {
   max-width: 1000px;
   margin: 0 auto;
+}
+
+.flex-container {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.flex-column {
+  flex: 1;
 }
