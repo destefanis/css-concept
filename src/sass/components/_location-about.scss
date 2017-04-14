@@ -1,0 +1,40 @@
+/*
+ *  Location header styles.
+ */
+
+.location-about {
+  padding: 3.5em 0;
+  background: $white;
+}
+
+.subheader {
+  margin-bottom: 0.5em;
+  letter-spacing: 0.025em;
+  text-transform: uppercase;
+  color: $grey;
+}
+
+.location-about__description {
+
+  @include min($tablet) {
+    display: inline-block;
+    width: 59.5%;
+    padding-right: 16px;
+    vertical-align: top;
+  }
+}
+
+.location-about__details {
+
+
+  @include min($tablet) {
+    display: inline-block;
+    width: 40%;
+    padding-left: 16px;
+    vertical-align: top;
+  }
+}
+
+.detail {
+  margin-bottom: 1em;
+}

@@ -3,22 +3,20 @@
  */
 
 .location {
-  padding: 2.5em 0;
   background: $light-grey;
   font-family: $sans;
 }
 
 .location-wrapper {
-  width: 100%;
+  padding: 2.5em 0;
 }
 
 .location-hero__gallery {
   position: relative;
-  display: inline-block;
-  width: 100%;
-  vertical-align: top;
 
   @include min($tablet) {
+    display: inline-block;
+    vertical-align: top;
     width: 33%;
     padding-right: 16px;
   }
@@ -42,12 +40,11 @@
 }
 
 .location-header {
-  width: 100%;
-  display: inline-block;
-  vertical-align: top;
   padding: 0 $gutter-width;
 
   @include min($tablet) {
+    display: inline-block;
+    vertical-align: top;
     width: 66.6%;
     padding-left: 16px;
   }
