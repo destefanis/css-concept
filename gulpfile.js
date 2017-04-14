@@ -9,6 +9,7 @@ const postcss  = require('gulp-postcss')
 const plumber  = require('gulp-plumber')
 const changed  = require('gulp-changed')
 const include  = require('gulp-file-include')
+const notifier = require('node-notifier')
 
 // Error Handling
 const onError = function(error) {
