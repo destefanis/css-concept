@@ -15,9 +15,11 @@
     <div class="location-wrapper">
       <div class="container">
 
-        <a class="location-hero__gallery" href="#">
-          <img src="images/cafe.jpg" class="gallery-image" alt="Dee Dee's Tavern Image">
-          <span class="location-hero__gallery-count">3 Images</span>
+        <a class="location-hero__gallery" href="#" style="background-image: url('images/cafe.jpg');">
+          <span class="location-hero__gallery-count">
+            @include("./svg/magnifier-icon.svg")
+            View 3 More
+          </span>
         </a>
 
         <div class="location-header">
@@ -84,6 +86,9 @@
             libero. Morbi a aliquam ex, eu ultricies magna. Nam nulla ex, 
             tempus at metus a, mollis vulputate nunc.
           </p>
+          <a href="#" class="read-more">
+            Read More
+          </a>
         </div>
         <aside class="location-about__details">
           <h2 class="subheader">
