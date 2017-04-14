@@ -17,33 +17,41 @@
 
         <a class="location-hero__gallery" href="#">
           <img src="images/cafe.jpg" class="gallery-image" alt="Dee Dee's Tavern Image">
+          <span class="location-hero__gallery-count">3 Images</span>
         </a>
+
         <div class="location-header">
-          <h1 class="location-header__title">Dee Dee's Tavern</h1>
-          <a href="#" class="button button--float-left">Book Now</a>
-          <span class="location-header__reviews">
-            <span class="reviews-rating">
-              @include("./svg/star.svg")
-              @include("./svg/star.svg")
-              @include("./svg/star.svg")
-              @include("./svg/star.svg")
-              @include("./svg/star.svg")
+          <div class="title-wrapper">
+            <h1 class="location-header__title">Dee Dee's Tavern</h1>
+            <span class="location-header__reviews">
+              <span class="reviews-rating">
+                @include("./svg/star.svg")
+                @include("./svg/star.svg")
+                @include("./svg/star.svg")
+                @include("./svg/star.svg")
+                @include("./svg/star.svg")
+              </span>
+              <a class="reviews-link" href="#">
+                (10 Reviews)
+              </a>
             </span>
-            <a class="reviews-link" href="#">
-              (10 Reviews)
-            </a>
-          </span>
-          <h3 class="location-header__city">
+          </div>
+
+          <a href="#" class="button button--float-right">Book Now</a>
+
+          <h5 class="location-header__city">
             <span class="location-icon">
               @include("./svg/location-icon.svg")
             </span>
             Chicago, IL
-          </h3>
+          </h5>
+
           <p class="location-header__about">
             Ut egestas elementum, sem quam iaculis risus, sed mollis risus urna 
             auctor lectus. Quisque placerat luctus ultricies. Duis vestibulum 
             metus vitae mi volutpat laoreet. Nulla a eros augue.
           </p>
+
           <div class="location-header__utilities">
             <a href="#" class="utilities-link utilities-link--verified">
               @include("./svg/shield-icon.svg")
@@ -55,6 +63,7 @@
               @include("./svg/clock-icon.svg")
             </a>
           </div>
+
         </div>
       </div>
     </div>

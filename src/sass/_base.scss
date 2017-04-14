@@ -2,7 +2,7 @@
  *  Base element and global styles
  */
 
-@import url('https://fonts.googleapis.com/css?family=Ek+Mukta:300,400,600');
+@import url('https://fonts.googleapis.com/css?family=Ek+Mukta:300,400,500,600');
 
 html {
   // 1rem = 10px
@@ -15,16 +15,16 @@ body {
   font-weight: 400;
 }
 
+p {
+  font-size: 1.8rem;
+  font-weight: 300;
+}
+
+h5 {
+  font-size: 1.8rem;
+}
+
 .container {
   max-width: 1000px;
   margin: 0 auto;
-}
-
-.flex-container {
-  display: flex;
-  flex-flow: row nowrap;
-}
-
-.flex-column {
-  flex: 1;
 }
