@@ -13,3 +13,8 @@ body {
   font-size: 1.6rem;
   font-family: $sans;
 }
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
