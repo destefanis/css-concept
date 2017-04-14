@@ -1,0 +1,25 @@
+{
+  "name": "",
+  "version": "1.0.0",
+  "description": "Design concept for a review site",
+  "author": "",
+  "license": "",
+
+  "devDependencies": {
+    "autoprefixer":               "*",
+    "browser-sync":               "*",
+    "cssnano":                    "*",
+    "del":                        "*",
+    "gulp-uglify":                "*",
+    "gulp":                       "*",
+    "gulp-changed":               "*",
+    "gulp-file-include":          "*",
+    "gulp-htmlmin":               "*",
+    "gulp-imagemin":              "*",
+    "gulp-plumber":               "*",
+    "gulp-postcss":               "*",
+    "gulp-sass":                  "*",
+    "node-notifier":              "*",
+    "gulp-uglify":                "*"
+  }
+}
