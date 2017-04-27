@@ -28,4 +28,6 @@ h5 {
 .container {
   max-width: 1000px;
   margin: 0 auto;
+  // Whitespace bug fix.
+  font-size: 0;
 }
