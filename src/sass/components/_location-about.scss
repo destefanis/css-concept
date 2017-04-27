@@ -17,18 +17,19 @@
 .location-about__description {
   position: relative;
   margin-bottom: 2em;
+  font-size: 1.6rem;
 
   @include min($tablet) {
     display: inline-block;
     width: 60%;
-    margin: 0 $gutter-width 0 0;
+    padding: 0 $gutter-width 0 0;
     vertical-align: top;
   }
 
   &::after {
     content: '';
     position: absolute;
-    bottom: 20px;
+    bottom: 0;
     left: 0;
     height: 200px;
     width: 100%;
@@ -54,7 +55,8 @@
 }
 
 .location-about__details {
-  margin-left: $gutter-width;
+  padding-left: $gutter-width;
+  font-size: 1.6rem;
 
   @include min($tablet) {
     display: inline-block;
