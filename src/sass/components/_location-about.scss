@@ -17,13 +17,11 @@
 .location-about__description {
   position: relative;
   margin-bottom: 2em;
-  padding: 0 $gutter-width;
 
   @include min($tablet) {
     display: inline-block;
-    width: 59.5%;
-    margin-bottom: 0;
-    padding: 0 $gutter-width 0 0;
+    width: 60%;
+    margin: 0 $gutter-width 0 0;
     vertical-align: top;
   }
 
@@ -34,7 +32,7 @@
     left: 0;
     height: 200px;
     width: 100%;
-    background: linear-gradient(0deg, $white, transparent);
+    background: linear-gradient(0deg, $white, rgba($white, 0));
   }
 }
 
@@ -56,12 +54,11 @@
 }
 
 .location-about__details {
-  padding: 0 $gutter-width;
+  margin-left: $gutter-width;
 
   @include min($tablet) {
     display: inline-block;
     width: 40%;
-    padding-left: 0 0 0 $gutter-width;
     vertical-align: top;
   }
 }
